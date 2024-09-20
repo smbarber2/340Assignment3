@@ -1,0 +1,135 @@
+.header img {
+  float: right;
+  width: 340px;
+  height: 240px;
+}
+
+.button {
+  border: true;
+  color: white;
+  padding: 25px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.buttonhead {background-color: #33966b;}
+
+
+.header {
+  padding-top: 30px;
+  padding-right: 40px;
+  padding-bottom: 60px;
+  padding-left: 80px;
+  text-align: left;
+  background: #339096;
+  color: white;
+  font-size: 25px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.active {
+  background-color: #33966b;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.seller {
+  padding: 5px 5px;
+  background-color: #40BC86; /* set the background color to red */
+  text-align: center;
+  font-size: 24px;
+
+}
+
+.important {
+   float: right;
+   padding: 0px 5px;
+   background-color: white; /* set the background color to red */
+   text-align: left;
+   font-size: 18px;
+
+ }
+
+ .important2 {
+    float: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: white; /* set the background color to red */
+    text-align: left;
+    font-size: 18px;
+    buffer: 40px;
+
+  }
+
+  .important3 {
+      float: left;
+      padding-left: 20px;
+      padding-right: 20px;
+      background-color: white; /* set the background color to red */
+      text-align: left;
+      font-size: 18px;
+      buffer: 40px;
+
+    }
+
+  .notice {
+  text-align: center;
+  font-size: 32px;
+  background-color: #E3A892;
+  }
+
+  .disclaimer {
+  font-size: 10px;
+  }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .image {
+    max-width: 100%;
+    max-height:100%;
+    float: left;
+    padding-right: 20px;
+ }
+
+
+.image2 {
+    float: right;
+
+  }
+
+ .contact {
+ float: left;
+ }
+
+ .hiring {
+ float: center;
+ }
